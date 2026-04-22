@@ -15,7 +15,7 @@ This framework addresses the challenge of **Translational Integration** in oncol
 
 | Cell Type Mapping (scRNA-seq) | Feature Importance (SHAP) |
 | :---: | :---: |
-| ![Cell Type UMAP](Result/umap_celltype_clean.png) | ![SHAP Summary](Result/shap_summary_bar.png) |
+| ![Cell Type UMAP](Result/umap_celltype_clean.jpg) | ![SHAP Summary](Result/shap_summary_bar.png) |
 
 ---
 
@@ -47,7 +47,7 @@ To ensure production-grade reliability, the entire workflow is containerized and
 ```bash
 # Clone the repository
 git clone https://github.com/Rishika-Madhanagopal/Precision-Oncology-XAI.git
-cd Oncology_pipeline
+cd Precision-Oncology-XAI
 ```
 #### Execute the pipeline
 ```bash
@@ -58,7 +58,7 @@ nextflow run main.nf -profile docker
 ## 📁 Project Structure
 
 ```bash
-Oncology_pipeline/
+Precision-Oncology-XAI/
 ├── data/                      # Raw and processed datasets (ignored in repo)
 ├── scripts/                   # Python and R scripts for each phase
 ├── models/                    # Saved ML models
