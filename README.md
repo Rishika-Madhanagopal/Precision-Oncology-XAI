@@ -72,8 +72,10 @@ Oncology_pipeline/
 └── README.md
 ```
 ## 🛠️ Tech Stack
-**Languages:** Python (Scanpy, Scikit-Learn, SHAP), R (gProfiler2, ggplot2)
-**Orchestration:** Nextflow, Docker
-**Concepts:** Single-cell analysis, XAI, Multi-omic Data Integration, Precision Medicine.
+* **Languages:** Python (Scanpy, Scikit-Learn, SHAP), R (gProfiler2, ggplot2)
+* **Orchestration:** Nextflow, Docker
+* **Concepts:** Single-cell analysis, XAI, Multi-omic Data Integration, Precision Medicine.
 
 ---
+### 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
