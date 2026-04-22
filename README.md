@@ -11,10 +11,10 @@ This framework addresses the challenge of **Translational Integration** in oncol
 * **Single-Cell Resolution:** Successfully mapped the tumor microenvironment into 9+ distinct cell types, validating clusters with canonical markers (*CD8A, HLA-DRA*).
 
 ---
-
 ### 📊 Results Preview
+
 | Cell Type Mapping (scRNA-seq) | Feature Importance (SHAP) |
-|---|---|
+| :---: | :---: |
 | ![Cell Type UMAP](Result/umap_celltype_clean.png) | ![SHAP Summary](Result/shap_summary_bar.png) |
 
 ---
