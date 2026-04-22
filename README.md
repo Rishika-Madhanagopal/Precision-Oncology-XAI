@@ -71,7 +71,9 @@ Oncology_pipeline/
 ├── .gitignore                 # Large files ignored from Git
 └── README.md
 ```
-### To Run Locally:
-```bash
-# Install Nextflow and Docker
-nextflow run main.nf -profile docker
+## 🛠️ Tech Stack
+**Languages:** Python (Scanpy, Scikit-Learn, SHAP), R (gProfiler2, ggplot2)
+**Orchestration:** Nextflow, Docker
+**Concepts:** Single-cell analysis, XAI, Multi-omic Data Integration, Precision Medicine.
+
+---
