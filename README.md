@@ -50,8 +50,8 @@ git clone [https://github.com/Rishika-Madhanagopal/Oncology_pipeline.git](https:
 cd Oncology_pipeline
 
 # Execute the pipeline
+```bash
 nextflow run main.nf -profile docker
-```
 ---
 
 ## 📁 Project Structure
