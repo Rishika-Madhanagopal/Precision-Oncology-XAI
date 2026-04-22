@@ -46,7 +46,7 @@ To ensure production-grade reliability, the entire workflow is containerized and
 #### To Run Locally:
 ```bash
 # Clone the repository
-git clone [https://github.com/Rishika-Madhanagopal/Oncology_pipeline.git](https://github.com/Rishika-Madhanagopal/Oncology_pipeline.git)
+git clone https://github.com/Rishika-Madhanagopal/Oncology_pipeline.git
 cd Oncology_pipeline
 ```
 #### Execute the pipeline
