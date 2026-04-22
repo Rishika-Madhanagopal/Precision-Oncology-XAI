@@ -15,7 +15,7 @@ This framework addresses the challenge of **Translational Integration** in oncol
 ### 📊 Results Preview
 | Cell Type Mapping (scRNA-seq) | Feature Importance (SHAP) |
 |---|---|
-| ![Cell Type UMAP](Result/umap_celltype_clean.jpg) | ![SHAP Summary](Result/shap_summary_bar.png) |
+| ![Cell Type UMAP](Result/umap_celltype_clean.png) | ![SHAP Summary](Result/shap_summary_bar.png) |
 
 ---
 
