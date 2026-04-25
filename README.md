@@ -3,21 +3,19 @@
 ### 🎯 Project Impact
 This framework addresses the challenge of **Translational Integration** in oncology. By bridging the gap between patient-derived multi-omics (TCGA) and cell-line therapeutic response (DepMap), this pipeline identifies robust, explainable biomarkers for drug sensitivity in breast cancer.
 
----
 
 ### 🚀 Key Findings
 * **Biomarker Identification:** Identified **IGKV1-5 and ALPL** as critical predictors for drug sensitivity using SHAP (Explainable AI).
 * **Biological Validation:** Pathway enrichment confirmed that high-performing features correlate with **Immunoglobulin complexes and Apoptosis** pathways.
 * **Single-Cell Resolution:** Successfully mapped the tumor microenvironment into 9+ distinct cell types, validating clusters with canonical markers (*CD8A, HLA-DRA*).
 
----
+
 ### 📊 Results Preview
 
 | Cell Type Mapping (scRNA-seq) | Feature Importance (SHAP) |
 | :---: | :---: |
 | ![Cell Type UMAP](Result/umap_celltype_clean.png) | ![SHAP Summary](Result/shap_summary_bar.png) |
 
----
 
 ### 🔍 Analytical Workflow
 
@@ -36,7 +34,6 @@ Instead of a "black-box" model, I utilized a **Random Forest Classifier** couple
 * **Functional Profiling:** Integrated **gProfiler2** to translate ML-identified features into biological pathways.
 * **Network Analysis:** Visualized gene-gene interactomes via **STRING** and **Cytoscape** to identify central hub genes within predictive modules.
 
----
 
 ### 🛠️ Infrastructure & Reproducibility
 To ensure production-grade reliability, the entire workflow is containerized and orchestrated:
@@ -53,7 +50,7 @@ cd Precision-Oncology-XAI
 ```bash
 nextflow run main.nf -profile docker
 ```
----
+
 
 ## 📁 Project Structure
 
@@ -76,6 +73,6 @@ Precision-Oncology-XAI/
 * **Orchestration:** Nextflow, Docker
 * **Concepts:** Single-cell analysis, XAI, Multi-omic Data Integration, Precision Medicine.
 
----
+
 ### 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
