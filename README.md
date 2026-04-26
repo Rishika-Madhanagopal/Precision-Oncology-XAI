@@ -1,4 +1,4 @@
-# 🧬 Precision Oncology: Multi-Omic Integration for Drug Sensitivity Prediction
+## 🧬 Precision Oncology: Multi-Omic Integration for Drug Sensitivity Prediction
 
 ### 🎯 Project Impact
 This framework addresses the challenge of **Translational Integration** in oncology. By bridging the gap between patient-derived multi-omics (TCGA) and cell-line therapeutic response (DepMap), this pipeline identifies robust, explainable biomarkers for drug sensitivity in breast cancer.
